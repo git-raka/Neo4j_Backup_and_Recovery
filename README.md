@@ -10,7 +10,8 @@ neo4j-admin backup --backup-dir=/mnt/neo4j/backups --database=dev2 --check-consi
 ```
 ### OFFLINE BACKUP
 Be sure to STOP the database first.
-```neo4j-admin dump --database=dev2 --to=/mnt/neo4j/dumps/dev2-20220810.dump
+```
+neo4j-admin dump --database=dev2 --to=/mnt/neo4j/dumps/dev2-20220810.dump
 ```
 
 # Neo4j Restore
